@@ -13,6 +13,8 @@ export class PhotoService {
   // eslint-disable-next-line @typescript-eslint/naming-convention
   private PHOTO_STORAGE = 'photos';
   private platform: Platform;
+
+
   constructor(platform: Platform) {
     this.platform = platform;
   }
